@@ -2,5 +2,8 @@
   "name": "hanzo.io",
   "version": "0.0.1",
   "description": "Hanzo's main website.",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "coffee-script": "1.10.0"
+  }
 }
