@@ -10402,3 +10402,26 @@ img {
 /* Uncomment out this line if you want to debug your layout */
 
 /* @import './_debug'; */
+.shuriken img {
+  margin-bottom: -22px;
+  margin-left: -16px;
+  width: 90px;
+}
+
+@media screen and (max-width: 480px) {
+  .shuriken img {
+    margin-bottom: -7px;
+    margin-left: -4px;
+    width: 30px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .shuriken {
+    display: block;
+  }
+  .shuriken img {
+    width: 120px;
+    text-align: center;
+  }
+}
