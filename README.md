@@ -1,7 +1,16 @@
 # hanzo.io
 Website for [Hanzo][http://hanzo.io].
 
-## Notes
+## Philosophy
+As a team of the largest open-source contributors we believe technology should
+be availble to everyone and every business of every size enabling you to reach
+the highest growth. Unfortunately in ecommerce when you actually get to the
+point where your business is thriving you often experience difficulties that
+make you lose customers. That inhibit you from growing at that pace. Because
+you are stuck on a platform that has not anticipated your success.
+
+Our goal is to help all companies reach their full potential. We will never hold you back.
+
 - Should probably reorganize into philosophy and team sections
 - Need to collect user information on signup:
     - Age
@@ -9,7 +18,7 @@ Website for [Hanzo][http://hanzo.io].
     - Size of company
     - Are you a devshop?
 
-## Value prop
+# Value prop
 - Scale
 - Limitations in:
     - Inventory
@@ -18,6 +27,7 @@ Website for [Hanzo][http://hanzo.io].
 
 - You can design it but you can't build it because you are working with someone else's bullshit
 - Go down the path of open-source shit
+
 If you are a business on a limited platform currently experiencing down-time,
 an inability to custom your platform to your customer's need you made qualify
 to our invite only beta to create your own private
@@ -31,15 +41,6 @@ that have experienced rapid overnight success from some of the most successful
 crowdfunding campaigns in the last year.
 
 The day that you realize you are ready for success it's too late.
-
-As a team of the largest open-source contributors we believe technology should
-be availble to everyone and every business of every size enabling you to reach
-the highest growth. Unfortunately in ecommerce when you actually get to the
-point where your business is thriving you often experience difficulties that
-make you lose customers. That inhibit you from growing at that pace. Because
-you are stuck on a platform that has not anticipated your success.
-
-Our goal is to help all companies reach their full potential. We will never hold you back.
 
 In order to perfect our platform and ensure everyone can
 
