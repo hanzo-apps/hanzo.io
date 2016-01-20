@@ -1,2 +1,2 @@
 # hanzo.io
-Website for [Hanzo][http://hanzo.io].
+Website for [Hanzo](http://hanzo.io).
