@@ -6322,11 +6322,11 @@ img {
 }
 
 .bg-light-gray {
-  background-color: #e0f8f8;
+  background-color: rgba(185, 237, 218, 0.65);
 }
 
 .bg-near-white {
-  background-color: #e9fbfb;
+  background-color: rgba(218, 255, 243, 0.51);
 }
 
 .bg-white {
