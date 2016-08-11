@@ -66,9 +66,9 @@ section, header, footer {
   .hero .image {
     max-width: 600px;
   }
-  .hero .content {
-    display: table-cell !important;
-  }
+  /* .hero .content { */
+  /*   display: table-cell !important; */
+  /* } */
 }
 
 .hero .image img {
