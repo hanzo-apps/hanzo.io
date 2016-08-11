@@ -71,6 +71,12 @@ section, header, footer {
   }
 }
 
+@media screen and (max-width:600px\0) {
+  .hero .content {
+    margin-top: 10vh !important;
+  }
+}
+
 .hero .image img {
   position: absolute;
   bottom: 20px;
@@ -97,7 +103,7 @@ section, header, footer {
     display: none;
   }
   .hero .info {
-    max-width: initial !important;
+    max-width: 100% !important;
     text-align: center !important;
     width: 100% !important;
   }
