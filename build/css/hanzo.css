@@ -67,7 +67,7 @@ section, header, footer {
     max-width: 600px;
   }
   .hero .content {
-    display: table-cell !important;
+    margin-top: 15vh !important;
   }
 }
 
