@@ -1,258 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <title>
-    Hanzo
-  </title>
-  <meta name="author" content="Hanzo, Inc">
-  <meta name="description" content="Modern business platform.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+      Hanzo
+    </title>
+    <meta name="author" content="Hanzo, Inc">
+    <meta name="description" content="Modern business platform.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
-  <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/icon/manifest.json">
-  <link rel="mask-icon" href="/icon/safari-pinned-tab.svg" color="#3dcaca">
-  <link rel="shortcut icon" href="/icon/favicon.ico">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
-  <meta name="msapplication-config" content="/icon/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="icon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="icon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="icon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="icon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="icon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="icon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="icon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="icon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="icon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="icon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="icon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="icon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="icon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="icon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="icon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="icon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="icon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="icon/mstile-310x310.png" />
+    <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" href="/css/hanzo.css">
-</head>
-<body class="wi-100 sans-serif">
-  <div class="dt pvxl pvxxl-ns">
-    <header class="bg-pulsate tc dtc wi-100 v-mid">
-      <div class="tc mbm mbn-ns">
-        <h1 class="f3 f1-s mega-ns b db-ns mrs mrn-ns mbn ttu mtn pulse-letters">
-          H a n z o
-          <span class="shuriken">
-            <img src="/img/h-logo.png" />
-          </span>
-        </h1>
+    <!-- Normalizer/Reset -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <!-- Animate CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
 
-        <p class="f5 f3-ns dib db-ns fw1 phs mbn mbx-ns aqua">
-          Cutting-edge software stack for modern companies.
-        </p>
+    <!-- Our Styles and JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.1/es6-shim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/layzr.js/2.0.2/layzr.min.js"></script> -->
+    <link rel="stylesheet" href="css/framework.css">
+    <script src="js/framework.js"></script>
 
-        <!-- <p class="f6 f4-ns dib db-ns fw1 phs mbn mbx-ns aqua"> -->
-        <!--   Now in private beta. -->
-        <!-- </p> -->
+    <!-- Block Level Styles and JS -->
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/hero-static.css">
+    <link rel="stylesheet" href="css/hero-video.css">
+    <script src="js/hero-video.js"></script>
+    <link rel="stylesheet" href="css/hero-parallax.css">
+    <link rel="stylesheet" href="css/parallax.css">
+    <script src="js/parallax.js"></script>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/list.css">
+    <script src="js/reanimate.js"></script>
+    <script src="js/layerify.js"></script>
+    <script src="js/scroll-to.js"></script>
 
-        <br>
+    <!-- Placeholder Overrides (fonts, colors, placeholder images) -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,100italic,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/hanzo.css">
 
-      </div>
-      <div class="pvm mtm">
-        <a title="Request invitation" href="/invite" class="small link black tc br2 bw1 pas pam-ns ba dim mrxs">
-          Request Invitation ▸
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#build">Build</a>
+          </li>
+          <li>
+            <a href="#fund">Fund</a>
+          </li>
+          <li>
+            <a href="#grow">Grow</a>
+          </li>
+        </ul>
+        <a href=".">
+          <img class="logo animated flip" src="./img/logo.png" alt="HANZO">
         </a>
-        <a title="Read the docs" href="http://hanzo.api-docs.io" class="small link black tc br2 bw1 pas pam-ns ba dim mlxs">
-          Read the Docs ▸
-        </a>
-      </div>
+      </nav>
     </header>
-  </div>
 
-  <main>
-    <!-- <section class="bg-white dark-gray phm pvxl pvxxl-ns bt b--light-gray"> -->
-    <!--   <div class="mw6 center phm phl-ns tl tl-ns"> -->
-    <!--     <p class="f4 lh-copy mbl"> -->
-    <!--       Not all companies are created equal. Don't gamble your company's -->
-    <!--       future on an inflexible, limited, outmoded, unscalable platform. -->
-    <!--     </p> -->
-    <!--   </div> -->
-    <!-- </section> -->
-
-    <!-- <section class="bg-near-white phm pvxl pvxxl-ns"> -->
-    <!--   <div class="mw7 center phm phl-ns tl tl-ns"> -->
-    <!--     <h1 class="f3 ttu book">Principles</h1> -->
-
-    <!--     <section class="f5 f5-ns list pln lh-copy"> -->
-    <!--       <article class="pvs"> -->
-    <!--         <h2 class="f4">Analyze everything.</h2> -->
-    <!--         <p> -->
-    <!--           Waste not, want not. Be prepared to capture every ounce of -->
-    <!--           information that you can from the very beginning. You can't -->
-    <!--           analyze what you don't know. -->
-    <!--         </p> -->
-    <!--       </article> -->
-
-    <!--       <article class="pvs"> -->
-    <!--         <h2 class="f4">Be agile.</h2> -->
-    <!--         <p> -->
-    <!--           Being able to develop quickly and easily is the key to launching -->
-    <!--           a brilliant product. Waste time and you risk cutting corners and -->
-    <!--           disappointing users. -->
-    <!--         </p> -->
-    <!--       </article> -->
-
-    <!--       <article class="pvs"> -->
-    <!--         <h2 class="f4"> -->
-    <!--           Communicate often. -->
-    <!--         </h2> -->
-    <!--         <p> -->
-    <!--           Your users want to hear from you. Speak clearly and be rewarded -->
-    <!--           with their attention. -->
-    <!--         </p> -->
-    <!--       </article> -->
-
-    <!--       <article class="pvs"> -->
-    <!--         <h2 class="f4"> -->
-    <!--           Focus on product. -->
-    <!--         </h2> -->
-    <!--         <p> -->
-    <!--           What matters? Your product. Don't get caught re-inventing the -->
-    <!--           wheel. Every hour you waste trying to catch-up is another hour -->
-    <!--           you fall farther behind. -->
-    <!--         </p> -->
-    <!--       </article> -->
-
-    <!--       <article class="pvs"> -->
-    <!--         <h2 class="f4">Performance matters.</h2> -->
-    <!--         <p> -->
-    <!--           Your user's time is precious. Delight them with speed and they'll -->
-    <!--           reward you with their attention. -->
-    <!--         </p> -->
-    <!--       </article> -->
-
-    <!--       <article class="pvs"> -->
-    <!--         <h2 class="f4"> -->
-    <!--           Stay flexible. -->
-    <!--         </h2> -->
-    <!--         <p> -->
-    <!--           Modern businesses have complex and mercurial needs. You need to -->
-    <!--           be able to adapt to change and leverage every advantage you can. -->
-    <!--         </p> -->
-    <!--       </article> -->
-
-    <!--       <article class="pvs"> -->
-    <!--         <h2 class="f4"> -->
-    <!--           Scale infinitely. -->
-    <!--         </h2> -->
-    <!--         <p> -->
-    <!--           Success can catch you by surprise when you least expect it. Don't -->
-    <!--           just survive a flood of new interest, flourish in it. -->
-    <!--         </p> -->
-    <!--       </article> -->
-
-    <!--       <article class="pvs"> -->
-    <!--         <h2 class="f4">Validate your assumptions.</h2> -->
-    <!--         <p> -->
-    <!--           Think you have a good idea? Prove it. Test every hypothesis. -->
-    <!--           Nobody gets it right the first time. Every idea needs validation. -->
-    <!--         </p> -->
-    <!--       </article> -->
-    <!--     </section> -->
-    <!--   </div> -->
-    <!-- </section> -->
-
-    <section class="bg-near-white phm pvxl pvxxl-ns bt b--light-gray">
-      <div class="mw7 center phm phl-ns tl tl-ns">
-
-        <h1 class="f4 ttu book mtx">Features</h1>
-        <section class="f4 f4-ns list pln lh-copy">
-          <article class="pvs">
-            <h2 class="f4 mvn">
-              ◦	Advanced business intelligence
-            </h2>
-          </article>
-
-          <article class="pvs">
-            <h2 class="f4 mvn">
-              ◦	&nbsp;Commerce, perfected
-            </h2>
-          </article>
-
-          <article class="pvs">
-            <h2 class="f4 mvn">
-              ◦	&nbsp;Distributed, scalable platform
-            </h2>
-          </article>
-
-          <article class="pvs">
-            <h2 class="f4 mvn">
-              ◦	&nbsp;Extensive API, powerful SDKs
-            </h2>
-          </article>
-
-          <article class="pvs">
-            <h2 class="f4 mvn">
-              ◦	&nbsp;Flexible building blocks
-            </h2>
-          </article>
-
-          <article class="pvs">
-            <h2 class="f4 mvn">
-              ◦	&nbsp;Framework agnostic
-            </h2>
-          </article>
-
-          <article class="pvs">
-            <h2 class="f4 mvn">
-              ◦	&nbsp;Mobile-first architecture
-            </h2>
-          </article>
-
-          <article class="pvs">
-            <h2 class="f4 mvn">
-              ◦	&nbsp;Proven, standards-based security
-            </h2>
-          </article>
-
-          <article class="pvs">
-            <h2 class="f4 mvn">
-              ◦	&nbsp;Sophisticated integrations.
-            </h2>
-          </article>
-        </section>
-      </div>
-      </div>
-    </section>
-
-    <section class="bg-light-gray dark-gray phm pvxl pvxxl-ns bt b--light-gray">
-    <!-- <section class="bg-white dt h-100 navy pvxl pvxxl-ns" id="npm"> -->
-      <div class="mw7 center phm phl-ns tl tl-ns">
-        <h3 class="f4 ttu book">
-          <a href="#npm" class="link black">Now in private beta.</a>
-        </h3>
-        <p class="f4 lh-copy mbl">
-          Hanzo is a creator-first ecommerce platform that helps you quickly build scalable companies, fund innovative products and grow community around invention. Hanzo is made up of complementary features that you can mix-and-match to fit your needs.
-        </p>
-
-        <br>
-
-        <div class="bg-pulsate tc dtc wi-100 v-mid">
-          <a title="Request Invitation" href="/invite" class="small link black tc br2 bw1 pas pam-ns ba dim mrxs">
-            Request Invitation ▸
-          </a>
+    <section class="hero static list right">
+      <div class="content">
+        <div class="image animated slideInUp">
+          <img src="img/mockup2.png"></img>
         </div>
-    </section>
-  </main>
-
-  <footer class="bg-black gray phm pvxl pvxxl-ns bt b--light-gray">
-      <div class="mw7 center phm phl-ns tl tl-ns">
-        <small class="f5 light-gray mw7 db center lh-copy">
-          © 2016 Hanzo Inc. All Rights Reserved.
-          <br>
-          <a class="link dim gray" href="/privacy">Privacy Policy</a>
-          <a class="link dim gray" href="/terms">Terms of Use</a>
-        </small>
+        <div class="info">
+          <div class="inner-info">
+            <h1>HANZO</h1>
+            <h4>
+              Building communities around invention.
+            </h4>
+            <a href="#cta" class="button call-to-action">
+              REQUEST INVITATION
+            </a>
+            <p>Now in Private Beta</p>
+          </div>
+        </div>
       </div>
-  </footer>
-  <!-- Crowdstart analytics tag -->
-  <script>
-    !function(t,e,a){var r,n,c,i,o,s,l,u;if(null==t.analytics){for(r=[],r.methods=["ab","alias","group","identify","off","on","once","page","pageview","ready","track","trackClick","trackForm","trackLink","trackSubmit"],l=r.methods,c=function(t){r[t]=function(){var e;return e=Array.prototype.slice.call(arguments),e.unshift(t),r.push(e),r}},i=0,o=l.length;o>i;i++)s=l[i],c(s);return u=e.createElement("script"),u.async=!0,u.type="text/javascript",u.src=a,n=e.getElementsByTagName("script")[0],n.parentNode.insertBefore(u,n),t.analytics=r}}(window,document,"//cdn.crowdstart.com/a/hanzo.js");
-  </script>
-</body>
+    </section>
+
+    <section class="features list bottom">
+      <div class="info">
+        <h4>PROVEN TECHNOLOGY</h4>
+        <ul class="content">
+          <li>
+            <i class="fa fa-truck" aria-hidden="true"></i>
+            $12 Million (USD) in Pre&#8209;orders
+          </li>
+          <li>
+            <i class="fa fa-users" aria-hidden="true"></i>
+            500,000 Early Adopters Acquired
+          </li>
+          <li>
+            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            140 Million Impressions Served
+          </li>
+        </ul>
+        <a class="button summary-down next-section" href="#">LEARN MORE</a>
+      </div>
+    </section>
+
+    <section id="build" class="list right">
+      <a name="build"></a>
+      <div class="image animated slideInLeft">
+      </div>
+      <div class="info animated slideInRight">
+        <h2>BUILD</h2>
+        <p>The Hanzo Platform comes out of the box with everything you need to build a successful business.</p>
+        <p><strong>Scalable Backend</strong><br/>
+          From Campaigns and Coupons to Stores and Sales, we come with everything you need to hit the ground running.
+        </p>
+        <p><strong>Reliable Hosting</strong><br/>
+          Aggressively cached and blazingly fast, never lose a sale to a performance hiccup again.
+        </p>
+        <p><strong>Shop.js</strong><br/>
+          Our finely tuned store checkout library, designed to make customers feel safe and excited.
+        </p>
+      </div>
+    </section>
+
+    <section id="fund" class="list left">
+      <a name="fund"></a>
+      <div class="image animated slideInRight">
+      </div>
+      <div class="info animated slideInLeft">
+        <h2>FUND</h2>
+        <p>Use crowdfunding and unique financing models to fund development of your product and power your business.</p>
+        <p><strong>Payments</strong><br/>
+          Be ready to take credit cards in minutes.  Get paid faster and easier than ever.
+        </p>
+        <p><strong>Pre-orders</strong><br/>
+          Start selling right now.
+        </p>
+        <p><strong>Financing &amp; Equity</strong><br/>
+          Coming Soon!
+        </p>
+      </div>
+    </section>
+
+    <section id="grow" class="list right">
+      <a name="grow"></a>
+      <div class="image animated slideInLeft">
+      </div>
+      <div class="info animated slideInRight">
+        <h2>GROW</h2>
+        <p>
+          Acquire customers, build valuable audience data, and create real traction.
+        </p>
+        <p><strong>Advertising Automation</strong><br/>
+          Do what makes sense, when it makes sense. Show ads on the most popular networks, and adjust based on data.
+        </p>
+        <p><strong>Marketing Automation</strong><br/>
+          Constantly re-engage with users and send updates using our fully featured Mailchimp integration.
+        </p>
+        <p><strong>Forms</strong><br/>
+          Build your reach and your subscriber base with drop-in forms to gather opt-in subscribers.
+        </p>
+        <p><strong>Referral &amp; Affiliate Marketing Programs</strong><br/>
+          Build your network by bringing experts in; others get paid when they make you money.
+        </p>
+      </div>
+    </section>
+
+    <section id="call-to-action" class="parallax">
+      <div class="content narrow">
+        <h3>Be one of the first to use HANZO</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit </p>
+        <form>
+          <input name="email" type="text" placeholder="Enter Your Email Address..."></input>
+          <button type="submit" class="button">Sign Me Up!</input>
+        </form>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <nav>
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <a href=".">
+        <img class ="logo" src="./img/logo.png" alt="HANZO"></img>
+      </a>
+      <small class="copyright">© HANZO, LLC 2016</small>
+    </footer>
+
+
+    <!-- Loader -->
+    <div class="loader">
+      <div class="sk-folding-cube">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+      </div>
+    </div>
+
+    <!-- Crowdstart analytics tag -->
+    <script>
+      !function(t,e,a){var r,n,c,i,o,s,l,u;if(null==t.analytics){for(r=[],r.methods=["ab","alias","group","identify","off","on","once","page","pageview","ready","track","trackClick","trackForm","trackLink","trackSubmit"],l=r.methods,c=function(t){r[t]=function(){var e;return e=Array.prototype.slice.call(arguments),e.unshift(t),r.push(e),r}},i=0,o=l.length;o>i;i++)s=l[i],c(s);return u=e.createElement("script"),u.async=!0,u.type="text/javascript",u.src=a,n=e.getElementsByTagName("script")[0],n.parentNode.insertBefore(u,n),t.analytics=r}}(window,document,"//cdn.crowdstart.com/a/hanzo.js");
+    </script>
+  </body>
 </html>
