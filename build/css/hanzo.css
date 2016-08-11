@@ -62,13 +62,13 @@ section, header, footer {
 }
 
 /* ie9/10 */
-@media screen\0 {
+@media screen and (min-width:0) {
   .hero .image {
     max-width: 600px;
   }
-  /* .hero .content { */
-  /*   display: table-cell !important; */
-  /* } */
+  .hero .content {
+    display: table-cell !important;
+  }
 }
 
 .hero .image img {
