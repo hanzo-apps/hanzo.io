@@ -61,6 +61,16 @@ section, header, footer {
   padding: 0 !important;
 }
 
+/* ie9/10 */
+@media screen\0 {
+  .hero .image {
+    max-width: 600px;
+  }
+  .hero .content {
+    display: table-cell !important;
+  }
+}
+
 .hero .image img {
   position: absolute;
   bottom: 20px;
