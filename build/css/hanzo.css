@@ -41,7 +41,7 @@ section, header, footer {
   display: table !important;
   padding: 0 !important;
   overflow: hidden;
-  clip: (0px, 0px, 100%, 100%);
+  clip: rect(0px, 0px, 100%, 100%);
 }
 
 .hero, .hero .image, .hero .info {
@@ -203,22 +203,31 @@ section, header, footer {
   background-size: cover;
 }
 
-/* #fund .image { */
-/*   width: 50%; */
-/* } */
+#build .image {
+  width: 47%;
+}
 
-/* #fund .info { */
-/*   width: 50%; */
-/*   max-width: 500px; */
-/* } */
+#build .info {
+  width: 53%;
+  max-width: 530px;
+}
+
+#fund .image {
+  width: 47%;
+}
+
+#fund .info {
+  width: 53%;
+  max-width: 530px;
+}
 
 #grow .image {
-  width: 50%;
+  width: 47%;
 }
 
 #grow .info {
-  width: 50%;
-  max-width: 450px;
+  width: 53%;
+  max-width: 530px;
 }
 
 @media (max-width: 800px) {
@@ -257,7 +266,7 @@ section, header, footer {
 }
 
 #call-to-action .content {
-  background-color: rgba(255,255,255,.4);
+  background-color: rgba(255,255,255,.6);
   padding: 20px 40px 40px 40px;
   margin-top: 80px;
   margin-bottom: 160px;
