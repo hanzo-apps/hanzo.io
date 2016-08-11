@@ -34,50 +34,6 @@ section, header, footer {
   animation-duration: .5s;
 }
 
-.hero .content {
-  margin-top: 0vh !important;
-  height: 100%;
-  margin-bottom: 0 !important;
-  display: table !important;
-  padding: 0 !important;
-  overflow: hidden;
-  clip: rect(0px, 0px, 100%, 100%);
-}
-
-.hero, .hero .image, .hero .info {
-  min-height: 400px !important;
-  height: 60vh;
-  display: table;
-  position: relative;
-}
-
-.hero .image {
-  width: 60% !important;
-}
-
-.hero .info {
-  width: 40% !important;
-  position: relative;
-  padding: 0 !important;
-}
-
-/* ie9/10 */
-@media screen and (min-width:0\0) {
-  .hero .image {
-    max-width: 600px;
-  }
-  .hero .content {
-    margin-top: 15vh !important;
-    height: auto !important;
-  }
-}
-
-@media screen and (max-width:600px\0) {
-  .hero .content {
-    margin-top: 10vh !important;
-  }
-}
-
 .hero .image img {
   position: absolute;
   bottom: 20px;
@@ -99,16 +55,23 @@ section, header, footer {
   margin-bottom: 0;
 }
 
+.hero.informatic, .hero.informatic .image, .hero.informatic .info {
+  height: 60vh !important;
+  min-height: 400px !important;
+}
+
+.hero.informatic .image {
+  width: 60%;
+}
+
+.hero.informatic .info {
+  width: 40%;
+  padding: 0 !important;
+  margin-top: 0 !important
+}
+
 @media (max-width: 800px) {
-  .hero .image {
-    display: none;
-  }
-  .hero .info {
-    max-width: 100% !important;
-    text-align: center !important;
-    width: 100% !important;
-  }
-  .hero .info .inner-info {
+  .hero.informatic .info .inner-info {
     max-width: initial !important;
   }
 }
