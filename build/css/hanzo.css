@@ -48,6 +48,7 @@ section, header, footer {
   min-height: 400px !important;
   height: 60vh;
   display: table;
+  position: relative;
 }
 
 .hero .image {
