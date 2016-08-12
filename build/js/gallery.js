@@ -6,7 +6,7 @@ $(function() {
   var $galleries =  $('.gallery')
   $galleries.each(function() {
     var $gallery = $(this);
-    var $blocks = $gallery.children();
+    var $blocks = $gallery.children('section, .block');
     var blockIndex = 0;
     var blockTotal = $blocks.length;
 
