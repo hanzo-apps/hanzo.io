@@ -1,0 +1,58 @@
+.gallery-controls {
+  position: absolute;
+  width: 100vw;
+  z-index: 2000;
+}
+
+.gallery-before, .gallery-after {
+  position: absolute;
+  top: 50vh;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border-radius: 40px;
+  margin-top: -20px;
+  font-size: 2em;
+}
+
+.gallery-before {
+  left: 20px;
+}
+
+.gallery-after {
+  right: 20px;
+}
+
+.gallery {
+  transition: all .6s ease-out;
+  display: block;
+  display: table;
+}
+
+.gallery-controls {
+  transition: all .6s ease-out;
+  height: 100%;
+}
+
+.gallery-counter {
+  margin-top: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: table;
+}
+
+.gallery-item {
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+body {
+  overflow-x: hidden;
+}
