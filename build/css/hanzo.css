@@ -55,8 +55,11 @@ section, header, footer {
   margin-bottom: 0;
 }
 
-.hero.informatic, .hero.informatic .image, .hero.informatic .info {
+.hero.informatic {
   height: 60vh !important;
+}
+
+.hero.informatic, .hero.informatic .image, .hero.informatic .info {
   min-height: 400px !important;
 }
 
