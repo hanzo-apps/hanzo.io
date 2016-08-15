@@ -111,9 +111,15 @@ header .logo {
   min-height: 300px;
 }
 
+#partners ul {
+  box-shadow: none !important;
+}
+
 #partners li {
-  width: 14.2%;
+  width: 12.2%;
   height: 50px;
+  margin: 1%;
+  box-shadow: none !important;
 }
 
 #partners .info {
@@ -122,12 +128,12 @@ header .logo {
 
 @media (max-width: 800px) {
   #partners li {
-    width: 25%;
+    width: 23%;
     height: 80px;
   }
 
   #partners li:nth-child(n+5) {
-    width: 33%;
+    width: 31%;
     height: 80px;
   }
 }
@@ -135,6 +141,55 @@ header .logo {
 #partners {
   height: auto;
   display: table;
+}
+
+#partners .surfaceink a {
+  background-image: url(../img/partners/surfaceink.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#partners .gooddata a {
+  background-image: url(../img/partners/gooddata.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#partners .lmgpr a {
+  background-image: url(../img/partners/lmgpr.gif);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#partners .helpfulhuman a {
+  background-image: url(../img/partners/helpfulhumanlight.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#partners .stripe a {
+  background-image: url(../img/partners/stripe.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#partners .google a {
+  background-image: url(../img/partners/google.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#partners .facebook a {
+  background-image: url(../img/partners/facebook.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #process {
