@@ -18,11 +18,11 @@ h1, h2, h3, h4, p, small {
 }
 
 h1, h2 {
-  font-family: 'Gotham Black', sans-serif;
+  font-family: Open sans, sans-serif;
 }
 
 h3, h4 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open sans', sans-serif;
   font-weight: 300;
 }
 
