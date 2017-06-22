@@ -1,0 +1,5 @@
+use 'sake-outdated'
+use 'sake-publish'
+use 'sake-version'
+
+task 'build'
