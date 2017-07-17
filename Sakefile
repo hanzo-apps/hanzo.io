@@ -3,6 +3,7 @@ use 'sake-publish'
 use 'sake-version'
 
 task 'build', 'build project', ->
+  exec 'bebop compile'
 
 task 'watch', 'watch project', ->
   exec 'bebop watch'
